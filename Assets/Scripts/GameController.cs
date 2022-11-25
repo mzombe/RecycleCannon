@@ -55,6 +55,7 @@ public class GameController : MonoBehaviour
     }
 
     public void ResumeGame(){
+		
         Time.timeScale = 1;
         if(pauseUI != null) pauseUI.SetActive(false);
     }

@@ -35,7 +35,12 @@ public class AudioManager : MonoBehaviour
         if(Time.timeScale == 0){
             for (int i = 0; i < sounds.Length; i++)
             {
-                sounds[i].source.Stop();
+                sounds[i].source.Pause();
+            }
+        }else{
+            for (int i = 0; i < sounds.Length; i++)
+            {
+                sounds[i].source.UnPause();
             }
         }
     }
