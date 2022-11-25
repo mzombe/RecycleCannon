@@ -17,7 +17,7 @@ public class Trash : MonoBehaviour
     }
 
     private void Start() {
-        cannon = GameObject.FindGameObjectWithTag("Cannon").GetComponent<Cannon>();;
+        cannon = GameObject.FindGameObjectWithTag("Cannon").GetComponent<Cannon>();
     }
 
     void Update()

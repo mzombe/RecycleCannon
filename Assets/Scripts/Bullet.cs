@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
     }
 
     private void Start() {
-        //StartCoroutine(Destroy());
+        StartCoroutine(Destroy());
     }
 	
 	// GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
